@@ -1,6 +1,5 @@
-from Veiculos import Veiculo
+from Veiculos import Veiculo, Carro
 
-ComRola = Veiculo('ABC1234', 'Totota', 'ComRola', 1999, 40000)
+Corrola = Carro('ABC1243', 'Totota', 'Corola', 2001, 50000, 4, 'boa')
 
-print(ComRola)
-print(ComRola.calcular_imposto())
+print(Corrola)
